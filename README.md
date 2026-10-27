@@ -1,5 +1,5 @@
 Lab6Web — Praktikum 6: JavaScript DOM dan Event Handling
-Nama	Albert Maulana
+Nama	:albert Maulana
 NIM	312510162
 Mata Kuliah	Pemrograman Web
 Pertemuan	7 — JavaScript DOM dan Event Handling
@@ -35,14 +35,10 @@ Ekstrak ZIP dulu (klik kanan › Extract All). Jika index.html dibuka langsung d
 Pastikan index.html, style.css, dan script.js berada dalam satu folder yang sama.
 Cara termudah: buka index.html di folder Lab6Web (halaman menu) lalu pilih Latihan atau Mini Project.
 Tidak diperlukan instalasi library apa pun. Semua kode memakai HTML, CSS, dan JavaScript murni.
-
 4. Langkah Kerja, Syntax, dan Screenshot
 Semua latihan digabung dalam satu halaman (lab6_dom_event/index.html) dengan script.js dihubungkan memakai atribut defer pada <head>, sehingga skrip berjalan setelah HTML selesai diparsing dan seluruh elemen sudah tersedia.
 
-Tampilan keseluruhan halaman:
-
-Halaman lengkap
-
+Tampilan keseluruhan halaman:<img width="1350" height="2336" alt="00_halaman_lengkap" src="https://github.com/user-attachments/assets/c7fec4d5-a9c2-4309-8658-c919fbf93fc3" />
 Latihan 1 — Mengubah Teks dengan DOM
 Syntax (script.js)
 
@@ -58,13 +54,9 @@ textContent memperlakukan nilai sebagai teks biasa (bukan markup HTML), sehingga
 Hasil
 
 Judul berubah menjadi "Belajar JavaScript DOM":
-
-Judul berubah
-
+<img width="1092" height="72" alt="01b_judul" src="https://github.com/user-attachments/assets/4be3d601-4849-45ac-b0a7-eecca131ab4a" />
 Paragraf berubah menjadi "Konten berhasil diubah oleh JavaScript.":
-
-Latihan 1
-
+<img width="1092" height="243" alt="01_latihan1_ubah_teks" src="https://github.com/user-attachments/assets/b8977798-92cd-434f-b4e9-fa3646d057a9" />
 Latihan 2 — Event Click
 Syntax
 
@@ -78,9 +70,7 @@ addEventListener("click", fungsi) menghubungkan event click pada tombol dengan s
 new Date().toLocaleTimeString() membuat objek waktu saat ini lalu mengubahnya menjadi teks jam (misalnya 14.07.31).
 Setiap kali tombol ditekan, isi paragraf #pesan diperbarui dengan waktu terbaru.
 Hasil (setelah tombol "Klik Saya" ditekan)
-
-Latihan 2
-
+<img width="1092" height="243" alt="02_latihan2_event_click" src="https://github.com/user-attachments/assets/c6f0e498-8267-489d-911c-4ea6e8cfee0e" />
 Latihan 3 — Mengubah Kelas dan Gaya CSS
 Syntax CSS (style.css)
 
@@ -110,13 +100,9 @@ toggle() — saklar: tambah bila tidak ada, hapus bila ada.
 Hasil
 
 Sebelum tombol ditekan:
-
-Latihan 3 sebelum
-
+<img width="1092" height="242" alt="03a_latihan3_sebelum" src="https://github.com/user-attachments/assets/bed9738d-252a-400e-98ce-44db004ae8d5" />
 Sesudah tombol "Ubah Gaya" ditekan (muncul latar biru, garis kiri, dan ukuran huruf lebih besar):
-
-Latihan 3 sesudah
-
+<img width="1092" height="311" alt="03b_latihan3_sesudah_toggle" src="https://github.com/user-attachments/assets/7224187d-7c37-41de-b454-dc9b86b4de24" />
 Latihan 4 — Event Input dan Penghitung Karakter
 Syntax HTML
 
@@ -138,13 +124,9 @@ Atribut maxlength="40" membatasi input maksimal 40 karakter.
 Hasil
 
 Kondisi awal (0 karakter):
-
-Latihan 4 awal
-
-Setelah mengetik "Sairin Bin Rubad" (16 karakter):
-
-Latihan 4 mengetik
-
+<img width="1092" height="294" alt="04a_latihan4_awal" src="https://github.com/user-attachments/assets/20376e89-a440-420f-9d15-83ef8c580af1" />
+Setelah mengetik "Albert maulana" (14 karakter):
+<img width="412" height="119" alt="image" src="https://github.com/user-attachments/assets/7293e561-9f44-40a4-899a-5972ff5234a3" />
 Latihan 5 — Validasi Form Pendaftaran
 Syntax HTML
 
@@ -193,20 +175,16 @@ aria-live="polite" membuat pembaca layar mengumumkan pesan baru, sehingga lebih 
 Hasil — lima kondisi pengujian
 
 Semua input kosong → "Nama wajib diisi."
-Semua kosong
-
+<img width="1092" height="582" alt="05a_latihan5_semua_kosong" src="https://github.com/user-attachments/assets/88307a30-588a-4997-ad43-d1dca33ee4d4" />
 Nama kosong (email dan usia terisi) → "Nama wajib diisi."
-Nama kosong
+<img width="1092" height="582" alt="05b_latihan5_nama_kosong" src="https://github.com/user-attachments/assets/79d7da44-b0bf-43f3-9c2d-a2a7e65410b9" />
+Email tidak valid (albert) → "Masukkan email yang valid."
 
-Email tidak valid (sairin@) → "Masukkan email yang valid."
-Email tidak valid
-
+<img width="367" height="242" alt="image" src="https://github.com/user-attachments/assets/8481dba0-3145-47a7-af8f-5d24bf9ecc8d" />
 Usia di bawah 17 (usia 15) → "Usia harus berupa bilangan bulat 17–100."
-Usia di bawah 17
-
+<img width="360" height="273" alt="image" src="https://github.com/user-attachments/assets/e909d542-51ff-428b-b61c-551e8eefab3a" />
 Semua input valid → "Validasi berhasil. Form siap diproses." (form otomatis dikosongkan)
-Valid
-
+<img width="1092" height="582" alt="05e_latihan5_valid" src="https://github.com/user-attachments/assets/70bbe568-6a41-4283-8631-b378671806d4" />
 Latihan 6 — Daftar Tugas Sederhana (To-do List)
 Syntax HTML
 
@@ -258,26 +236,17 @@ Setelah menambah: input dikosongkan dan focus() mengembalikan kursor ke kolom in
 Hasil
 
 Tombol Tambah ditekan saat input kosong:
-
-Input kosong
-
+<img width="1092" height="308" alt="06a_latihan6_input_kosong" src="https://github.com/user-attachments/assets/a3997cb3-4b03-4a19-ae5c-c595958920a2" />
 Tiga tugas berhasil ditambahkan:
-
-Tugas ditambahkan
-
+<img width="1092" height="464" alt="06b_latihan6_tugas_ditambahkan" src="https://github.com/user-attachments/assets/2d812a5f-662b-4e9d-8f54-1137da373449" />
 Tugas pertama ditandai selesai (dicoret, tombol berubah menjadi "Batalkan selesai"):
-
-Tugas selesai
-
+<img width="1092" height="464" alt="06c_latihan6_tugas_selesai" src="https://github.com/user-attachments/assets/9cbc8db7-95b1-4771-a17c-7c0312d622b2" />
 Tugas ketiga dihapus dengan tombol "Hapus" (Eksperimen Mandiri no. 1):
-
-Tugas dihapus
-
+<img width="1092" height="416" alt="06d_latihan6_tugas_dihapus" src="https://github.com/user-attachments/assets/9cab999e-5397-439f-a35c-b11566191981" />
 5. Mini Project — Form Pendaftaran Workshop
 Lokasi: mini_project/ (index.html, style.css, script.js).
 
 Fitur interaktif (lebih dari tiga):
-
 No	Fitur	Event yang dipakai
 1	Validasi nama (wajib, minimal 3 karakter), email (format), dan pilihan sesi	submit
 2	Ringkasan input secara langsung di kartu sebelah kanan	input, change
@@ -317,33 +286,17 @@ Penjelasan: setiap kolom memiliki fungsi validasi sendiri (cekNama, cekEmail, ce
 Hasil
 
 Tampilan awal:
-
-Mini awal
-
+<img width="393" height="312" alt="image" src="https://github.com/user-attachments/assets/7c93b277-03ec-42a6-becf-837722ee06cc" />
 Submit dengan semua kolom kosong (pesan error muncul di tiap kolom):
-
-Mini kosong
-
-Nama terlalu pendek ("Si") dan email tidak valid:
-
-Mini nama pendek
-
+<img width="443" height="334" alt="image" src="https://github.com/user-attachments/assets/a5792673-8310-4b3a-b539-1979df5a2f5a" />
+Nama terlalu pendek ("Al") dan email tidak valid:
+<img width="395" height="333" alt="image" src="https://github.com/user-attachments/assets/5ef5d10d-1bda-4838-85b0-5c4cee1bf6ec" />
 Pengisian valid — ringkasan input, sesi terpilih, dan penghitung karakter diperbarui langsung:
 
-Mini ringkasan
-
+<img width="426" height="419" alt="image" src="https://github.com/user-attachments/assets/749a632a-2eb8-467b-80c1-fcb8d206514a" />
 Setelah menekan "Daftar" dengan data valid (pesan sukses):
-
-Mini sukses
-
-Setelah menekan "Reset":
-
-Mini reset
-
-Tampilan pada perangkat mobile (layout satu kolom):
-
-Mini mobile
-
+<img width="418" height="116" alt="image" src="https://github.com/user-attachments/assets/82c6f8b0-e373-47f9-a5ef-41be5deffd6e" />
+<img width="425" height="460" alt="image" src="https://github.com/user-attachments/assets/08f9b0de-87c9-4c79-b024-8d06c4c386c2" />
 6. Eksperimen Mandiri
 1. Tombol hapus satu item pada To-do List — sudah ditambahkan pada Latihan 6.
 
@@ -372,24 +325,17 @@ tombolSembunyi.addEventListener("click", function () {
 classList.toggle() mengembalikan true jika class baru ditambahkan, sehingga hasilnya dipakai untuk mengganti label tombol.
 
 Paragraf tampil:
-
-Eksperimen tampil
-
+<img width="1092" height="243" alt="07a_eksperimen_tampil" src="https://github.com/user-attachments/assets/6ff65896-5114-484d-bdb3-cac2d27e0446" />
 Paragraf disembunyikan:
-
-Eksperimen sembunyi
-
+<img width="1092" height="180" alt="07b_eksperimen_tersembunyi" src="https://github.com/user-attachments/assets/0cb26061-02e2-4ac2-bc96-0395d873bd91" />
 5. Memindahkan script tanpa defer di <head>
 
 Percobaan: atribut defer dihapus sehingga menjadi <script src="script.js"></script> di dalam <head>.
 
 Hasilnya, judul tetap "Latihan DOM" dan paragraf tetap "Belum ada tindakan." (tidak berubah), dan Console menampilkan error:
-
 Uncaught TypeError: Cannot set properties of null (setting 'textContent')
-Tanpa defer
-
+<img width="1092" height="243" alt="08_eksperimen5_tanpa_defer" src="https://github.com/user-attachments/assets/f4dcfd3b-6680-482e-a510-70c41c195f33" />
 Penyebab: browser membaca HTML dari atas ke bawah. Skrip di <head> dijalankan sebelum elemen di <body> (seperti #judul) dibuat, sehingga document.getElementById("judul") mengembalikan null. Mengakses null.textContent menyebabkan error dan seluruh skrip berhenti. Atribut defer memerintahkan browser mengunduh skrip secara paralel namun menjalankannya setelah HTML selesai diparsing. Alternatif lain adalah menaruh <script> tepat sebelum </body> atau membungkus kode dengan event DOMContentLoaded.
-
 7. Jawaban Pertanyaan Evaluasi
 1. Apa yang dimaksud dengan DOM dan apa manfaatnya? DOM (Document Object Model) adalah representasi dokumen HTML dalam bentuk pohon objek yang dapat diakses dan diubah oleh JavaScript. Manfaatnya: program dapat memilih elemen, mengubah teks/atribut/gaya, menambah atau menghapus elemen, serta merespons tindakan pengguna tanpa memuat ulang halaman.
 
@@ -415,3 +361,53 @@ Nama hanya spasi / kurang dari 3 karakter (mini project) → ditolak.
 Semua input valid → muncul pesan sukses dan form dikosongkan.
 8. Kesimpulan
 Melalui praktikum ini, saya mempelajari cara memilih dan memanipulasi elemen dengan DOM (getElementById, textContent, classList, createElement), menangani berbagai event (click, input, change, submit) memakai addEventListener(), serta membuat validasi form dan aplikasi interaktif sederhana (To-do List dan Form Pendaftaran Workshop). Atribut defer terbukti penting agar skrip berjalan setelah elemen HTML tersedia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
